@@ -32,8 +32,29 @@ class Solution:
         else:
             return self.mediana_das_medianas(maiores, k - len(menores) - len(pivots))
     
-    
-#Teste
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        
+        combinados = nums1 + nums2
+        print(f"Arrays combinados: {combinados}")
+        
+        n = len(combinados)
+        print(f"Tamanho total do array combinado: {n}")
+        
+        if n % 2 == 1:
+            #impar
+            print(f"ímpar: do meio.")
+            return float(self.mediana_das_medianas(combinados, n // 2))
+        else:
+            # par
+            print(f"Par: os dois do meio.")
+            esquerdo = self.mediana_das_medianas(combinados, n // 2 - 1)
+            direito = self.mediana_das_medianas(combinados, n // 2)
+            print(f"esquerdo = {esquerdo}, direito = {direito}")
+            return (esquerdo + direito) / 2.0
+
+
+# Testando
 solucao = Solution()
-resultado = solucao.mediana_das_medianas([9, 3, 7, 2, 6, 5, 8, 1, 4, 11, 18], 2)#Ex aula
-print(f"Resultado: {resultado}")
+nums1 = [1, 3]
+nums2 = [2]
+print(f"Resultado: {solucao.findMedianSortedArrays(nums1, nums2)}")
