@@ -25,10 +25,15 @@ class Solution:
         pivots = [x for x in A if x == pivo]
         print(f"Menores: {menores}, Pivos: {pivots}, Maiores: {maiores}")
 
-        return self.mediana_das_medianas(medianas, len(medianas) // 2) 
+        if k < len(menores):
+            return self.mediana_das_medianas(menores, k)
+        elif k < len(menores) + len(pivots):
+            return pivots[0]
+        else:
+            return self.mediana_das_medianas(maiores, k - len(menores) - len(pivots))
     
     
 #Teste
 solucao = Solution()
-resultado = solucao.mediana_das_medianas([9, 3, 7, 2, 6, 5, 8, 1, 4, 11, 18], 2) #Ex Aula
+resultado = solucao.mediana_das_medianas([9, 3, 7, 2, 6, 5, 8, 1, 4, 11, 18], 2)#Ex aula
 print(f"Resultado: {resultado}")
