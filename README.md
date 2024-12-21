@@ -1,44 +1,38 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Dividir e COnquistar LeetCode
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 35<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 200059947 |  Pedro Henrique Muniz de Oliveira|
+| 211030827 |  Leandro de Almeida Oliveira     |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Com o objetivo de aplicar na prática os algoritmos estudados nessa unidade da disciplina, resolvemos 4 questões do site LeetCode os utilizando. Ficou definido que serão feitas duas questões de nível médio e duas de nível difícil. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: python<br>
+
+O código pode ser executado em algum compilador online de python para teste. 
+É necessário uma conta no site <a href = "https://leetcode.com/" target = "_blank">LeetCode</a>.
+
+## Exercícios
+
+|Nível|Link|
+|:---:|:--:|
+|Difícil|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para executar acesse o link da questão no site leetcode com sua conta e copie o arquivo ou seu conteúdo, em seguida envie a questão para ser avaliada pelo juiz online.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
+## Link dos vídeos com a explicação
+
 
 
 
