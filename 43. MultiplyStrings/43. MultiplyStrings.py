@@ -13,17 +13,16 @@ class Solution:
         metade = tamanhoMax // 2
         
         num1, num2 = num1.zfill(tamanhoMax), num2.zfill(tamanhoMax)
-
         x1, x0 = num1[:-metade], num1[-metade:]
         y1, y0 = num2[:-metade], num2[-metade:]
 
         z0 = self.karatsuba(x0, y0)  
         z2 = self.karatsuba(x1, y1)  
-        z1 = self.karatsuba(str(int(x0) + int(x1)), str(int(y0) + int(y1)))  
-        
-        print(f"z0: {z0}, z2: {z2}, z1: {z1}")
-        
-        return "Produto intermediario"
+        z1 = self.karatsuba(str(int(x0) + int(x1)), str(int(y0) + int(y1))) 
 
-solution = Solution()
-print(solution.multiply("1234", "5678"))  
+        middle = str(int(z1) - int(z2) - int(z0))
+        
+        return str(int(z2 + '0' * (2 * metade)) + int(middle + '0' * metade) + int(z0))
+
+teste = Solution()
+print(teste.multiply("1234", "5678")) 
