@@ -13,8 +13,8 @@
 Com o objetivo de aplicar na prática os algoritmos estudados nessa unidade da disciplina, resolvemos 4 questões do site LeetCode os utilizando. Ficou definido que serão feitas duas questões de nível médio e duas de nível difícil. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
-
+### 4. Median of Two Sorted Arrays
+![1584_print](/4.MedianofTwoSortedArrays/4MedianOfTwoSortedArrays.jpeg)
 ## Instalação 
 **Linguagem**: python<br>
 
@@ -34,7 +34,7 @@ Para executar acesse o link da questão no site leetcode com sua conta e copie o
 
 
 ## Link dos vídeos com a explicação
-
+ <a href = "https://youtu.be/Ghpo-S45eIo" target = "_blank">4. Median of Two Sorted Arrays</a> 
 
 
 
