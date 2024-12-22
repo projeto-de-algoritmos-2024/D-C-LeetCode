@@ -14,3 +14,13 @@ class Solution:
                 while j <= fim and nums[i] > 2 * nums[j]:
                     j += 1
                 c += j - (metade + 1)
+
+            temp = []
+            i, j = inicio, metade + 1
+            while i <= metade and j <= fim:
+                if nums[i] <= nums[j]:
+                    temp.append(nums[i])
+                    i += 1
+                else:
+                    temp.append(nums[j])
+                    j += 1
