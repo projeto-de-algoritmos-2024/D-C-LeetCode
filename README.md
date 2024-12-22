@@ -1,4 +1,4 @@
-# Dividir e COnquistar LeetCode
+# Dividir e Conquistar LeetCode
 
 **Número da Lista**: 35<br>
 **Conteúdo da Disciplina**: Dividir e Conquistar<br>
