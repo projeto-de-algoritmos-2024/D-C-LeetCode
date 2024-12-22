@@ -25,15 +25,17 @@ class Solution:
         pivots = [x for x in A if x == pivo]
         print(f"Menores: {menores}, Pivos: {pivots}, Maiores: {maiores}")
 
-        if k < len(maiores):
-            return self.mediana_das_medianas(maiores, k)
-        elif k < len(maiores) + len(pivots):
-            return pivots[0]
+        if k < len(menores):
+            #busca nos menores
+            return self.mediana_das_medianas(menores, k)
+        elif k < len(menores) + len(pivots):
+            return pivo
         else:
-            return self.mediana_das_medianas(menores, k - len(maiores) - len(pivots))
+            #busca nos maiores
+            return self.mediana_das_medianas(maiores, k - len(menores) - len(pivots))
         
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        # Arrumar o K
+        #Arrumar o K
         k_menor = len(nums) - k 
         return self.mediana_das_medianas(nums, k_menor)
 
