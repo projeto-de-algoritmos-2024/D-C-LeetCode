@@ -26,6 +26,8 @@ O código pode ser executado em algum compilador online de python para teste.
 |Nível|Link|
 |:---:|:--:|
 |Difícil|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|
+|Média|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|
+
 
 ## Uso 
 Para executar acesse o link da questão no site leetcode com sua conta e copie o arquivo ou seu conteúdo, em seguida envie a questão para ser avaliada pelo juiz online.
