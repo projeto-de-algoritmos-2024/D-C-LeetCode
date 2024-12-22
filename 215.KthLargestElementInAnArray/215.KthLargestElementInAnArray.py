@@ -32,9 +32,12 @@ class Solution:
         else:
             return self.mediana_das_medianas(menores, k - len(maiores) - len(pivots))
         
-
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        # Arrumar o K
+        k_menor = len(nums) - k 
+        return self.mediana_das_medianas(nums, k_menor)
 
 # Teste 
 solucao = Solution()
-resultado = solucao.mediana_das_medianas([3, 2, 1, 5, 6, 4], 2)  
+resultado = solucao.findKthLargest([3, 2, 1, 5, 6, 4], 2)  
 print(f"Resultado: {resultado}")
