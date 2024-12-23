@@ -20,7 +20,8 @@ Com o objetivo de aplicar na prática os algoritmos estudados nessa unidade da d
 ![1584_print](/215.KthLargestElementInAnArray/215KthLargestElementInAnArray.jpeg)
 
 ### 43. Multiply Strings
-![image](https://github.com/user-attachments/assets/8ad5adfa-2708-4d8e-a195-94f918eadde4)
+![image](https://github.com/user-attachments/assets/09cf9616-a664-4938-9702-dfe39427cd57)
+
 
 
 ## Instalação 
