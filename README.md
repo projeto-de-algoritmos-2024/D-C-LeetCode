@@ -36,7 +36,7 @@ O código pode ser executado em algum compilador online de python para teste.
 |:---:|:--:|
 |Difícil|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|
 |Média|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|
-|Média|[43. https://leetcode.com/problems/multiply-strings/description/](https://leetcode.com/problems/multiply-strings/description/)|
+|Média|[43. Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|
 
 
 ## Uso 
