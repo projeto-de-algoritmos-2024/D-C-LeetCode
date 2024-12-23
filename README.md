@@ -22,7 +22,8 @@ Com o objetivo de aplicar na prática os algoritmos estudados nessa unidade da d
 ### 43. Multiply Strings
 ![image](https://github.com/user-attachments/assets/09cf9616-a664-4938-9702-dfe39427cd57)
 
-
+## 493. Reverse Pairs
+![image](https://github.com/user-attachments/assets/17cd33a0-640a-425c-8b09-434e79e67acf)
 
 ## Instalação 
 **Linguagem**: python<br>
@@ -37,6 +38,7 @@ O código pode ser executado em algum compilador online de python para teste.
 |Difícil|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|
 |Média|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|
 |Média|[43. Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|
+|Difícil|[493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)|
 
 
 ## Uso 
