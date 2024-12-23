@@ -19,6 +19,9 @@ Com o objetivo de aplicar na prática os algoritmos estudados nessa unidade da d
 ### 215. KthLargest Element In An Array
 ![1584_print](/215.KthLargestElementInAnArray/215KthLargestElementInAnArray.jpeg)
 
+### 43. Multiply Strings
+![image](https://github.com/user-attachments/assets/8ad5adfa-2708-4d8e-a195-94f918eadde4)
+
 
 ## Instalação 
 **Linguagem**: python<br>
@@ -32,6 +35,7 @@ O código pode ser executado em algum compilador online de python para teste.
 |:---:|:--:|
 |Difícil|[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|
 |Média|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|
+|Média|[43. https://leetcode.com/problems/multiply-strings/description/](https://leetcode.com/problems/multiply-strings/description/)|
 
 
 ## Uso 
@@ -43,6 +47,8 @@ Para executar acesse o link da questão no site leetcode com sua conta e copie o
  <a href = "https://youtu.be/Ghpo-S45eIo" target = "_blank">4. Median of Two Sorted Arrays</a> 
 
  <a href = "https://youtu.be/lOejFR3tYq8" target = "_blank">215. KthLargest Element In An Array</a> 
+
+ <a href = "https://www.youtube.com/watch?v=A1IplERbL_g" target = "_blank">43. Multiply Strings</a> 
 
 
 
