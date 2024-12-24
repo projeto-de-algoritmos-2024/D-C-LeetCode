@@ -35,7 +35,3 @@ class Solution:
 
     def subtracao_binaria(self, bin1: str, bin2: str) -> str:
         return bin(max(0, int(bin1, 2) - int(bin2, 2)))[2:]
-
-teste = Solution()
-#print(teste.multiply("1234", "5678"))
-print(teste.multiply("1234857456456456456456", "567856465456456456"))
