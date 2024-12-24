@@ -51,7 +51,7 @@ Para executar acesse o link da questão no site leetcode com sua conta e copie o
 
  <a href = "https://youtu.be/lOejFR3tYq8" target = "_blank">215. KthLargest Element In An Array</a> 
 
- <a href = "https://www.youtube.com/watch?v=RiH5Y17pUuE" target = "_blank">493. Reverse Pairs</a> 
+ <a href = "https://www.youtube.com/watch?v=atj8JQBhiek" target = "_blank">493. Reverse Pairs</a> 
 
 
 
